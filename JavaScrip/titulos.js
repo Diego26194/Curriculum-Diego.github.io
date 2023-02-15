@@ -6,25 +6,6 @@ class HideOnHeaderClick {
 
     // Agregar un event listener al elemento "header" para detectar cuando se hace clic en él
 
-    if(this.paragraph.style.display == "none"){
-      
-      this.header.addEventListener("mouseover", () => {
-      this.paragraph.style.display = "inline";
-      this.paragraph.style.display = "table";
-    });
-    this.paragraph.addEventListener("mouseover", () => {
-      this.paragraph.style.display = "inline";
-      this.paragraph.style.display = "table";
-    });
-    this.header.addEventListener("mouseout", () => {
-      this.paragraph.style.display = "none";
-    });
-    this.paragraph.addEventListener("mouseout", () => {
-      this.paragraph.style.display = "none";
-    });
-
-    }
-
     this.header.addEventListener("click", () => {
       if (this.paragraph.style.display == "none"){
         this.paragraph.style.display = "inline";
