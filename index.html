@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./CSS/estilo.css">
     <link rel="stylesheet" href="./CSS/fuentes.css">
     <body> 
+      
   
         <header>
           <h1>Ianchina Diego</h1>
@@ -18,8 +19,9 @@
             <img src="./Fotos/foto.jpg" alt="foto curriculo" width="70%">
             
             <section id="AcercaDeMi">
-              <h3>ACERCA DE MÍ</h3>
-              <p>Soy una persona Dedicada, autodidacta y
+                
+              <h3>ACERCA DE MÍ </h3>
+              <p >Soy una persona Dedicada, autodidacta y
                 me adapto rápidamente, lo que me permite
                 poder manejarme con lenguaje de
                 programación nuevo en poco tiempo</p>
@@ -41,17 +43,22 @@
             <h2>EDUCACIÓN</h2>
       
             <div id="Facultades">
-              <h4>Universidad Nacional de San Luis</h4>
-              <p>Ingeniería Mecatrónica,</p>
-              <ul>
-                <li>2020-En curso</li>
-              </ul>
-          
-              <h4>Universidad Nacional de Cuyo</h4>
-              <p>Ingeniería Industrial</p>
-              <ul>
-                <li>hasta tercer año </li>
-              </ul>
+              <h4 id="Ningm">Ingeniería Mecatrónica </h4>
+              <div id="Dingm" style="display: none;">
+                <p>Universidad Nacional de San Luis</p>
+                <uli>
+                  <li>2020-En curso</li>
+                </ul>
+              </div>
+        
+              <h4 id="Ningi">Ingeniería Industrial</h4>
+              <div id="Dingi" style="display: none;">  
+               <p>Universidad Nacional de Cuyo</p>
+               <uli>
+                 <li>hasta tercer año </li>
+               </ul>
+
+              </div>
             </div>
             
           </section>
@@ -61,52 +68,52 @@
         <section id="Tecnologias">
           <h2>TECNOLOGIAS</h2>
           <div id="DescripcionTec">
-            <h4>Java</h4>
-            <ul>
+            <h4 id="NJava">Java</h4>
+            <ul id="DJava" style="display: none;">
               <li> Curso DGE-Fundación Santísima Trinidad,2021</li>
               <li>Complementado con curso de linkedin</li>
             </ul>
         
-            <h4>JavaScript</h4>
-            <ul>
+            <h4 id="NJavaScript">JavaScript</h4>
+            <ul id="DJavaScript" style="display: none;">
               <li>Curso "Argentina Programa" "se programar"</li>
               <li>Curso programacion web "Argentina Programa 4.0"</li>
             </ul>
         
-            <h4>HTML</h4>
-            <ul>
+            <h4 id="NHTML">HTML</h4>
+            <ul id="DHTML" style="display: none;">
               <li>Curso programacion web "Argentina Programa 4.0"</li>
             </ul>
         
-            <h4>CSS</h4>
-            <ul>
+            <h4 id="NCSS">CSS</h4>
+            <ul id="DCSS" style="display: none;">
               <li>Curso programacion web "Argentina Programa 4.0"</li>
             </ul>
             
-            <h4>Ruby</h4>
-            <ul>
+            <h4 id="NRuby">Ruby</h4>
+            <ul id="DRuby" style="display: none;">
               <li>Curso "Argentina Programa" "se programar"</li>
             </ul>
             
-            <h4>C</h4>
-            <ul>
+            <h4 id="NC">C</h4>
+            <ul id="DC" style="display: none;">
               <li>Universidad Nacional de San Luis</li>
             </ul>
             
-            <h4>Matlab</h4>
-            <ul>
+            <h4 id="NMatlab">Matlab</h4>
+            <ul id="DMatlab" style="display: none;">
               <li>Universidad Nacional de San Luis</li>
               <li>Universidad Nacional de Cuyo</li>
             </ul>
             
-            <h4>Conocimiento básico de MySQL</h4>
-            <ul>
+            <h4 id="NMySQL">Conocimiento básico de MySQL</h4>
+            <ul id="DMySQL" style="display: none;">
               <li>Curso de Java</li>
               <li>Complementado con curso de linkedin</li>
             </ul>
           </div>
           
         </section>
-      
+      <script src="./JavaScrip/js.js"></script>
       </body>
       </html>
