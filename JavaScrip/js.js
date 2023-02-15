@@ -1,6 +1,6 @@
 class pasarmouse {
   constructor(titulo, cuerpo) {
-    var estado=1;
+    var estado=0;
     this.titulo = document.querySelector(titulo);
     this.cuerpo = document.querySelector(cuerpo);
       this.titulo.addEventListener("mouseover", () => {
