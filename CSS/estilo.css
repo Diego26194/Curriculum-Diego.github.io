@@ -1,6 +1,46 @@
 *{
     box-sizing: border-box;
 }
+header{
+    width: 37.5%;
+    float: right;
+    margin-right: 15% ;
+}
+#Principal{
+    background-color: rgb(231, 229, 226);
+}
+#Izquierdo{
+    width: 32.5%;
+    float: left;
+    margin-left: 15% ;
+}
+#foto{
+    width: 32.5%;
+    float: left;
+    margin-left: 15% ;
+    background-color: rgb(231, 229, 226);
+}
+#Tecnologias{
+    width: 37.5%;
+    float: right;
+    margin-right: 15% ;
+}
+
+#AcercaDeMi{    
+    padding-top: 7%;
+    margin: 0% 15% 6% 15%;
+}
+#DatosDeContacto{
+    padding: 8% 15% 6% 15%;
+    
+}
+div#DescripcionTec{
+    margin-left: 13.5%;
+}
+div#Facultades{
+    margin-left: 4%;
+}
+
 img{
     
     margin: 8% 15% 0% 15%;
@@ -34,6 +74,7 @@ h1{
 h2{
     color: rgba(70, 41, 201, 0.849);
     margin-left: 4%;
+    margin-top: 1%;
     background-color: rgb(211, 236, 245);
     font-size: 2.5vw;
     padding: 3% 0% 3% 3%;
@@ -52,36 +93,45 @@ h4{
     font-family: ClearSans-Bold;
 }
 
-
-header{
-    width: 37.5%;
-    float: right;
-    margin-right: 15% ;
-}
-#Principal{
-    background-color: rgb(231, 229, 226);
-}
-#Izquierdo{
-    width: 32.5%;
-    float: left;
-    margin-left: 15% ;
-}
-#AcercaDeMi{
-    margin:  15% 15% 6% 15%;
-
-}
-#DatosDeContacto{
-    padding: 8% 15% 6% 15%;
-    
-}
-#Tecnologias{
-    width: 37.5%;
-    float: right;
-    margin-right: 15% ;
-}
-div#DescripcionTec{
-    margin-left: 13.5%;
-}
-div#Facultades{
-    margin-left: 4%;
+@media (max-width: 800px ){
+    #Izquierdo, #Tecnologias{
+        width:80%;
+        margin-right: 10% ;
+        margin-left: 10% ;
+    }
+    #foto{
+        width: 32.5%;
+        padding-bottom: 8%;
+        margin-left: 10% ;
+    }
+    header{
+        width: 47.5%;
+        margin-right: 10% ;
+        background-color: rgb(231, 229, 226);
+    }
+    #AcercaDeMi{    
+        margin-bottom: 0%;
+    }
+    #DatosDeContacto {
+        padding-top: 5%;
+    }
+    #DescripcionTec, #Facultades {
+        margin-left: 2%;
+    }
+    h1{
+        font-size: 8.95vw;
+    }
+    ul,p,a{
+        font-size: 13px;
+    }
+    h3,h2,h4{
+        font-size: initial;
+    }
+    h3{
+        margin-bottom: 0%;
+    }
+    h2{
+        margin-left: 0%;
+        margin-top: 4%;
+    }
 }
