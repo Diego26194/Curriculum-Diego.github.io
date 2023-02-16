@@ -1,45 +1,6 @@
 *{
     box-sizing: border-box;
 }
-header{
-    width: 37.5%;
-    float: right;
-    margin-right: 15% ;
-}
-#Principal{
-    background-color: rgb(231, 229, 226);
-}
-#Izquierdo{
-    width: 32.5%;
-    float: left;
-    margin-left: 15% ;
-}
-#foto{
-    width: 32.5%;
-    float: left;
-    margin-left: 15% ;
-    background-color: rgb(231, 229, 226);
-}
-#Tecnologias{
-    width: 37.5%;
-    float: right;
-    margin-right: 15% ;
-}
-
-#AcercaDeMi{    
-    padding-top: 7%;
-    margin: 0% 15% 6% 15%;
-}
-#DatosDeContacto{
-    padding: 8% 15% 6% 15%;
-    
-}
-div#DescripcionTec{
-    margin-left: 13.5%;
-}
-div#Facultades{
-    margin-left: 4%;
-}
 
 img{
     
@@ -93,6 +54,45 @@ h4{
     font-family: ClearSans-Bold;
 }
 
+header{
+    width: 37.5%;
+    float: right;
+    margin-right: 15% ;
+}
+#Principal{
+    background-color: rgb(231, 229, 226);
+}
+#Izquierdo{
+    width: 32.5%;
+    float: left;
+    margin-left: 15% ;
+}
+#foto{
+    width: 32.5%;
+    float: left;
+    margin-left: 15% ;
+    background-color: rgb(231, 229, 226);
+}
+#Tecnologias{
+    width: 37.5%;
+    float: right;
+    margin-right: 15% ;
+}
+
+#AcercaDeMi{    
+    padding-top: 7%;
+    margin: 0% 15% 6% 15%;
+}
+#DatosDeContacto{
+    padding: 8% 15% 6% 15%;
+    
+}
+#DescripcionTec{
+    margin-left: 13.5%;
+}
+#Facultades{
+    margin-left: 4%;
+}
 @media (max-width: 800px ){
     #Izquierdo, #Tecnologias{
         width:80%;
