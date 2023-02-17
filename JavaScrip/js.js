@@ -1,3 +1,4 @@
+
 class pasarmouse {
   constructor(titulo, cuerpo) {
     var estado=0;
