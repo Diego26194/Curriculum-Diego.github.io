@@ -4,26 +4,31 @@ class pasarmouse {
     var estado=0;
     this.titulo = document.querySelector(titulo);
     this.cuerpo = document.querySelector(cuerpo);
+    var comentario = this.titulo.querySelector('span');
       this.titulo.addEventListener("mouseover", () => {
         if(estado==0){
           this.cuerpo.style.display = "inline";
           this.cuerpo.style.display = "table";
+          comentario.style.display = "none";
         }
       });
       this.cuerpo.addEventListener("mouseover", () => {
         if(estado==0){
           this.cuerpo.style.display = "inline";
           this.cuerpo.style.display = "table";
+          comentario.style.display = "none";
         }
       });
       this.titulo.addEventListener("mouseout",  () => {
         if(estado==0){
           this.cuerpo.style.display = "none";
+          comentario.style.display = "inline-block";
         }
       });
       this.cuerpo.addEventListener("mouseout", () => {
         if(estado==0){
           this.cuerpo.style.display = "none";
+          comentario.style.display = "inline-block";
         }
       });
 
@@ -35,12 +40,14 @@ class pasarmouse {
       if (this.cuerpo.style.display == "none" || estado==0){
         this.cuerpo.style.display = "inline";
         this.cuerpo.style.display = "table";
+        comentario.style.display = "none";
         estado=1;
 
         
       }
       else{
-        this.cuerpo.style.display = "none"
+        this.cuerpo.style.display = "none";
+        comentario.style.display = "inline-block";
         estado=0;
       }
     });

@@ -1,7 +1,10 @@
 *{
     box-sizing: border-box;
 }
-
+.comentario {
+    font-size: 50%;
+    margin-left: 10px;
+  }
 img{
     
     margin: 8% 15% 0% 15%;
@@ -52,6 +55,7 @@ h4{
     font-size: 1.5vw;
     margin: 4% 5% 2% 0%;
     font-family: ClearSans-Bold;
+    cursor: pointer;
 }
 
 header{
@@ -94,6 +98,9 @@ header{
     margin-left: 4%;
 }
 @media (max-width: 800px ){
+    .comentario {
+        font-size: 60%;
+      }
     #Izquierdo, #Tecnologias{
         width:80%;
         margin-right: 10% ;
